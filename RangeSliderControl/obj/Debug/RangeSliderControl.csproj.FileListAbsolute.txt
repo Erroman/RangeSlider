@@ -11,3 +11,16 @@ C:\Endeavours\WPF\MyRangeSliderControl\RangeSlider\RangeSliderControl\obj\Debug\
 C:\Endeavours\WPF\MyRangeSliderControl\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControl.csprojAssemblyReference.cache
 C:\Endeavours\WPF\MyRangeSliderControl\RangeSlider\RangeSliderControl\obj\Debug\RangeSlider.g.cs
 C:\Endeavours\WPF\MyRangeSliderControl\RangeSlider\RangeSliderControl\obj\Debug\RangeSlider.baml
+D:\Endeavours\WPF\RangeSlider\RangeSliderControl\bin\Debug\RangeSliderControl.dll
+D:\Endeavours\WPF\RangeSlider\RangeSliderControl\bin\Debug\RangeSliderControl.pdb
+D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControl.csprojAssemblyReference.cache
+D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSlider.g.cs
+D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControl_MarkupCompile.cache
+D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControl_MarkupCompile.lref
+D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSlider.baml
+D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControl.g.resources
+D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControl.Properties.Resources.resources
+D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControl.csproj.GenerateResource.cache
+D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControl.csproj.CoreCompileInputs.cache
+D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControl.dll
+D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControl.pdb

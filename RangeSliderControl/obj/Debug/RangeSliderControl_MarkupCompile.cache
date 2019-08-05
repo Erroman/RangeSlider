@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Endeavours\WPF\MyRangeSliderControl\RangeSlider\RangeSliderControl\obj\Debug\
+D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\
 RangeSliderControl
 none
 false
@@ -12,9 +12,9 @@ DEBUG;TRACE
 
 1728589751
 
-5-1567779764
+4-1019199087
 13-1505183044
 RangeSlider.xaml;
 
-True
+False
 

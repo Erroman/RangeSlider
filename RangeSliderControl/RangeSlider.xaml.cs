@@ -71,6 +71,5 @@ namespace RangeSliderControl
         DependencyProperty.Register("Orientation", typeof(Orientation), typeof(RangeSlider),
                               new FrameworkPropertyMetadata(Orientation.Horizontal));
 
-
     }
 }
