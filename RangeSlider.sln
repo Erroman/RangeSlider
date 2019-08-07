@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29123.89
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RangeSlider", "RangeSlider\RangeSlider.csproj", "{D7EE390A-8421-4160-99C1-C71C008D91B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RangeSliderControl", "RangeSliderControl\RangeSliderControl.csproj", "{E99CE19E-0AF8-4AB0-8586-834528782B19}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RangeSliderControls", "RangeSliderControl\RangeSliderControls.csproj", "{E99CE19E-0AF8-4AB0-8586-834528782B19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

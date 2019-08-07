@@ -3,17 +3,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:RangeSliderControl="clr-namespace:RangeSliderControl;assembly=RangeSliderControl" x:Class="RangeSlider.MainWindow"
+        xmlns:RangeSliderControls="clr-namespace:RangeSliderControls;assembly=RangeSliderControls" x:Class="RangeSlider.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <RangeSliderControl:RangeSlider x:Name="slider"
+        <RangeSliderControls:RangeSlider x:Name="slider"
                                Margin="10" 
                                LowerValue="30"
                                UpperValue="70"
                                Minimum="0"
                                Maximum="100" HorizontalAlignment="Left" Height="300" VerticalAlignment="Top" Width="700"/>
-        <RangeSliderControl:RangeSlider x:Name="sliderVer" Orientation="Vertical"
+        <RangeSliderControls:RangeSlider x:Name="sliderVer"
                                Margin="10,-36,0,0" 
                                LowerValue="30"
                                UpperValue="70"

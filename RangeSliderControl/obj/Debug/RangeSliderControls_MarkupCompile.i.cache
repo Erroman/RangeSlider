@@ -1,20 +1,20 @@
-﻿RangeSliderControl
+﻿RangeSliderControls
 
 
 library
 C#
 .cs
 C:\Endeavours\WPF\MyRangeSliderControl\RangeSlider\RangeSliderControl\obj\Debug\
-RangeSliderControl
+RangeSliderControls
 none
 false
 DEBUG;TRACE
 
-1728589751
+274462538
 
-4-1019199087
-13-1505183044
-RangeSlider.xaml;
+6531986030
+151397803362
+RangeSlider.xaml;RangeSliderVertical.xaml;
 
 False
 

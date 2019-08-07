@@ -95,9 +95,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RangeSliderControl\RangeSliderControl.csproj">
+    <ProjectReference Include="..\RangeSliderControl\RangeSliderControls.csproj">
       <Project>{e99ce19e-0af8-4ab0-8586-834528782b19}</Project>
-      <Name>RangeSliderControl</Name>
+      <Name>RangeSliderControls</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

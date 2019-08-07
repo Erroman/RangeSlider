@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace RangeSliderControl
+namespace RangeSliderControls
 {
     /// <summary>
     /// Interaction logic for RangeSlider.xaml
@@ -62,14 +62,6 @@ namespace RangeSliderControl
         /// <summary>
         /// Get/Set Orientation property
         /// </summary>
-        public Orientation Orientation
-        {
-            get { return (Orientation)GetValue(OrientationProperty); }
-            set { SetValue(OrientationProperty, value); }
-        }
-        public static readonly DependencyProperty OrientationProperty =
-        DependencyProperty.Register("Orientation", typeof(Orientation), typeof(RangeSlider),
-                              new FrameworkPropertyMetadata(Orientation.Horizontal));
 
     }
 }
