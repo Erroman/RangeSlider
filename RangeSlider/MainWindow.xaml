@@ -7,15 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="43*"/>
+            <ColumnDefinition Width="749*"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="386*"/>
+            <RowDefinition Height="43*"/>
+            <RowDefinition Height="343*"/>
             <RowDefinition Height="33*"/>
         </Grid.RowDefinitions>
-        <RangeSliderControls:RangeSlider x:Name="Slider"
-                               Margin="50,5,0,0" 
-                               LowerValue="30"
-                               UpperValue="70"
+        <RangeSliderControls:RangeSlider x:Name="SliderHorizontal"
+                               Margin="22,5,0,0" 
+                               LowerValue="0"
+                               UpperValue="100"
                                Minimum="0"
-                               Maximum="100" HorizontalAlignment="Left" Height="18" VerticalAlignment="Top" Width="700" Grid.Row="1"/>
+                               Maximum="100" HorizontalAlignment="Left" Height="18" VerticalAlignment="Top" Width="700" Grid.Row="2" Grid.Column="1"/>
+        <RangeSliderControls:RangeSliderVertical x:Name="SliderVertical" HorizontalAlignment="Left" Height="29" Margin="10,28,0,0" Grid.Row="1" VerticalAlignment="Top" Width="17"/>
     </Grid>
 </Window>

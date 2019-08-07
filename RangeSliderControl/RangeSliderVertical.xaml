@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:RangeSliderControls"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="450" d:DesignWidth="800" x:Name="root">
     <UserControl.Resources>
         <SolidColorBrush x:Key="SliderThumb.Static.Foreground" Color="#FFE5E5E5"/>
         <SolidColorBrush x:Key="SliderThumb.MouseOver.Background" Color="#FFDCECFC"/>
@@ -262,13 +262,15 @@
         <ControlTemplate x:Key="simpleSlider" TargetType="{x:Type Slider}">
             <Border SnapsToDevicePixels="true" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
                 <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}"/>
-                        <RowDefinition Height="Auto"/>
-                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto" MinWidth="{TemplateBinding MinWidth}"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
 
-                    <Track x:Name="PART_Track" Grid.Row="1">
+                    <Rectangle x:Name="PART_SelectionRange"/>
+
+                    <Track x:Name="PART_Track" Grid.Column="1" Orientation="Vertical">
                         <Track.Thumb>
                             <Thumb x:Name="Thumb">
                                 <Thumb.Template>
@@ -276,8 +278,8 @@
                                         <Rectangle Fill="Red" 
                                                    Stroke="Black"
                                                    StrokeThickness="1" 
-                                                   Width="10"
-                                                   Height="18"
+                                                   Width="18"
+                                                   Height="10"
                                                    SnapsToDevicePixels="True"/>
                                     </ControlTemplate>
                                 </Thumb.Template>
@@ -287,10 +289,27 @@
                 </Grid>
             </Border>
         </ControlTemplate>
-
     </UserControl.Resources>
-    <Grid>
-        <Slider HorizontalAlignment="Left" Margin="86,202,0,0" VerticalAlignment="Top" Width="648" Height="25" Style="{DynamicResource SliderStyle1}"/>
-        <Slider HorizontalAlignment="Left" Margin="86,202,0,0" VerticalAlignment="Top" Width="648" Height="25" Style="{DynamicResource SliderStyle1}"/>
+    <Grid HorizontalAlignment="Left">
+        <Border BorderThickness="0,1,0,0" BorderBrush="Black" HorizontalAlignment="Center"  Width="1" 
+                Margin="0,5,0,5"/>
+
+        <Slider x:Name="LowerSlider"
+                Minimum="{Binding ElementName=root, Path=Minimum}"
+                Maximum="{Binding ElementName=root, Path=Maximum}"
+                Value="{Binding ElementName=root, Path=LowerValue, Mode=TwoWay}"
+                Template="{StaticResource simpleSlider}"
+                Margin="0,0,0,10"
+                Orientation="Vertical"
+                />
+
+        <Slider x:Name="UpperSlider"
+                Minimum="{Binding ElementName=root, Path=Minimum}"
+                Maximum="{Binding ElementName=root, Path=Maximum}"
+                Value="{Binding ElementName=root, Path=UpperValue, Mode=TwoWay}"
+                Template="{StaticResource simpleSlider}"
+                Margin="0,10,0,0"
+                Orientation="Vertical"
+                />
     </Grid>
 </UserControl>
