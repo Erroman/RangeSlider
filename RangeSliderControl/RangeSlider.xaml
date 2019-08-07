@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:RangeSliderControls"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="450" d:DesignWidth="800" x:Name="root">
     <UserControl.Resources>
         <SolidColorBrush x:Key="SliderThumb.Static.Foreground" Color="#FFE5E5E5"/>
         <SolidColorBrush x:Key="SliderThumb.MouseOver.Background" Color="#FFDCECFC"/>
@@ -268,7 +268,7 @@
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
 
-
+                    <Rectangle x:Name="PART_SelectionRange"/>
 
                     <Track x:Name="PART_Track" Grid.Row="1">
                         <Track.Thumb>
@@ -289,10 +289,25 @@
                 </Grid>
             </Border>
         </ControlTemplate>
-
     </UserControl.Resources>
-    <Grid>
-        <Slider HorizontalAlignment="Left" Margin="86,202,0,0" VerticalAlignment="Top" Width="648" Height="25" Style="{DynamicResource SliderStyle1}"/>
-        <Slider HorizontalAlignment="Left" Margin="86,202,0,0" VerticalAlignment="Top" Width="648" Height="25" Style="{DynamicResource SliderStyle1}"/>
+    <Grid VerticalAlignment="Top">
+        <Border BorderThickness="0,1,0,0" BorderBrush="Black" VerticalAlignment="Center" Height="1" 
+                Margin="5,0,5,0"/>
+
+        <Slider x:Name="LowerSlider"
+                Minimum="{Binding ElementName=root, Path=Minimum}"
+                Maximum="{Binding ElementName=root, Path=Maximum}"
+                Value="{Binding ElementName=root, Path=LowerValue, Mode=TwoWay}"
+                Template="{StaticResource simpleSlider}"
+                Margin="0,0,10,0"
+                />
+
+        <Slider x:Name="UpperSlider"
+                Minimum="{Binding ElementName=root, Path=Minimum}"
+                Maximum="{Binding ElementName=root, Path=Maximum}"
+                Value="{Binding ElementName=root, Path=UpperValue, Mode=TwoWay}"
+                Template="{StaticResource simpleSlider}"
+                Margin="10,0,0,0"
+                />
     </Grid>
 </UserControl>

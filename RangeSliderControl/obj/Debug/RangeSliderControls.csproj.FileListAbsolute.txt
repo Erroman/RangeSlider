@@ -29,7 +29,6 @@ C:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControls.d
 C:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControls.pdb
 D:\Endeavours\WPF\RangeSlider\RangeSliderControl\bin\Debug\RangeSliderControls.dll
 D:\Endeavours\WPF\RangeSlider\RangeSliderControl\bin\Debug\RangeSliderControls.pdb
-D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControls.csprojAssemblyReference.cache
 D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSlider.g.cs
 D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderVertical.g.cs
 D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControls_MarkupCompile.cache
@@ -42,3 +41,4 @@ D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControls.c
 D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControls.csproj.CoreCompileInputs.cache
 D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControls.dll
 D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControls.pdb
+D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControls.csprojAssemblyReference.cache
