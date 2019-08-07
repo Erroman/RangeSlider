@@ -301,6 +301,7 @@
                 Template="{StaticResource simpleSlider}"
                 Margin="0,0,0,10"
                 Orientation="Vertical"
+                IsDirectionReversed="True"
                 />
 
         <Slider x:Name="UpperSlider"
@@ -310,6 +311,7 @@
                 Template="{StaticResource simpleSlider}"
                 Margin="0,10,0,0"
                 Orientation="Vertical"
+                IsDirectionReversed="True"
                 />
     </Grid>
 </UserControl>
