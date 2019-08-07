@@ -42,3 +42,4 @@ D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControls.c
 D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControls.dll
 D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControls.pdb
 D:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControls.csprojAssemblyReference.cache
+C:\Endeavours\WPF\RangeSlider\RangeSliderControl\obj\Debug\RangeSliderControls.csprojAssemblyReference.cache

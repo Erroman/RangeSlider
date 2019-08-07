@@ -291,7 +291,7 @@
         </ControlTemplate>
     </UserControl.Resources>
     <Grid HorizontalAlignment="Left">
-        <Border BorderThickness="0,1,0,0" BorderBrush="Black" HorizontalAlignment="Center"  Width="1" 
+        <Border BorderThickness="1,0,0,0" BorderBrush="Black" HorizontalAlignment="Center"  Width="1" 
                 Margin="0,5,0,5"/>
 
         <Slider x:Name="LowerSlider"
